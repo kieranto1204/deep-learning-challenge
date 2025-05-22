@@ -23,6 +23,3 @@ Results:
   - What steps did you take in your attempts to increase model performance?
     - I added more hidden layers in each attempt, I also adjusted the amount of epochs down from 100 to 25, before going back up to 30, I also edited the validation split between attempts.
 
-
-Summary:
-
