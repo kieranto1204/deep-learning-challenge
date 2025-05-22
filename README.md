@@ -8,8 +8,11 @@ Results:
 
 - Data Processing:
   - What variable(s) are the target(s) for your model?
+    -  The target variable for my model is the "IS_SUCCESSFUL", either having a value of 1 indicating a success and a 0 indicating a non-success.
   - What variable(s) are the features for your model?
+    - In this model, the "EIN" and "NAME" columns were dropped, and the remaining columns were the features for the model (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT). 
   - What variable(s) should be removed from the input data because they are neither targets nor features?
+    - The "EIN" and "NAME" variable(s) were removed. 
 
 
 - Compiling, Training, and Evaluating the Model:
