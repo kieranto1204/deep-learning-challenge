@@ -17,9 +17,11 @@ Results:
 
 - Compiling, Training, and Evaluating the Model:
   - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-    - I used  
+    - I used 2 hidden layers with 7 and 14 neurons in my first attempt because I wanted small numbers for my first try, for my second attempt I used 2 hidden layers with 25 and 50 neurons respectively, in my third attempt I used 3 hidden layers with 25, 50, and 75 neurons respectively and then finally ended with 4 hidden layers at 25, 50, 75, and 100 neurons. I did this because after the first attempt, I figured out the number of neurons didn't significantly impact my load times, and so for my further attempts I wanted to go up in increments of 25 until I reached 100 neurons total.
   - Were you able to achieve the target model performance?
+    - I was not able to achieve the target model performance, I always hovered around 73%. 
   - What steps did you take in your attempts to increase model performance?
+    - I added more hidden layers in each attempt, I also adjusted the amount of epochs down from 100 to 25, before going back up to 30, I also edited the validation split between attempts.
 
 
 Summary:
